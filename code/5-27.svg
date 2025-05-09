@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="702pt" height="524pt" viewBox="7.20 7.20 694.95 517.20">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(11.2 513.2)">
+<polygon fill="white" stroke="none" points="-4,4 -4,-506 683.75,-506 683.75,4 -4,4"/>
+<text text-anchor="middle" x="339.88" y="-7.2" font-family="Times New Roman,serif" font-size="14.00">図5-27 バッチ版Affineレイヤの計算グラフ</text>
+<!-- dummy1 -->
+<g id="node1" class="node">
+<title>dummy1</title>
+<text text-anchor="middle" x="78.5" y="-484.7" font-family="Times New Roman,serif" font-size="14.00">(N,2)       (N,3)        (3.2)</text>
+<text text-anchor="middle" x="78.5" y="-468.2" font-family="Times New Roman,serif" font-size="14.00">∂L/∂X = ∂L/∂Y ・W^T</text>
+</g>
+<!-- dummy2 -->
+<g id="node2" class="node">
+<title>dummy2</title>
+<text text-anchor="middle" x="78.5" y="-371.7" font-family="Times New Roman,serif" font-size="14.00">(2,3)      (2.N)       (N,3)</text>
+<text text-anchor="middle" x="78.5" y="-355.2" font-family="Times New Roman,serif" font-size="14.00">∂L/∂W = X^T・∂L/∂Y</text>
+</g>
+<!-- dummy1&#45;&gt;dummy2 -->
+<!-- X -->
+<g id="node3" class="node">
+<title>X</title>
+<text text-anchor="middle" x="78.5" y="-253.45" font-family="Times New Roman,serif" font-size="14.00"> </text>
+</g>
+<!-- dummy2&#45;&gt;X -->
+<!-- W -->
+<g id="node4" class="node">
+<title>W</title>
+<text text-anchor="middle" x="78.5" y="-145.45" font-family="Times New Roman,serif" font-size="14.00"> </text>
+</g>
+<!-- X&#45;&gt;W -->
+<!-- dot -->
+<g id="node6" class="node">
+<title>dot</title>
+<ellipse fill="none" stroke="black" cx="321" cy="-180.5" rx="22.69" ry="22.69"/>
+<text text-anchor="middle" x="321" y="-175.45" font-family="Times New Roman,serif" font-size="14.00">dot</text>
+</g>
+<!-- X&#45;&gt;dot -->
+<g id="edge5" class="edge">
+<title>X-&gt;dot</title>
+<path fill="none" stroke="black" d="M105.46,-272.93C138.22,-289.06 195.53,-310.24 239,-288.5 270.87,-272.56 293.46,-237.46 306.55,-211.58"/>
+<polygon fill="black" stroke="black" points="309.57,-213.37 310.76,-202.84 303.26,-210.33 309.57,-213.37"/>
+<text text-anchor="middle" x="219.5" y="-317.35" font-family="Times New Roman,serif" font-size="14.00">(N,2)</text>
+<text text-anchor="middle" x="219.5" y="-300.85" font-family="Times New Roman,serif" font-size="14.00">X</text>
+</g>
+<!-- B -->
+<g id="node5" class="node">
+<title>B</title>
+<text text-anchor="middle" x="78.5" y="-37.45" font-family="Times New Roman,serif" font-size="14.00"> </text>
+</g>
+<!-- W&#45;&gt;B -->
+<!-- W&#45;&gt;dot -->
+<g id="edge7" class="edge">
+<title>W-&gt;dot</title>
+<path fill="none" stroke="black" d="M105.24,-153.71C149.14,-159.19 238.44,-170.33 286.92,-176.37"/>
+<polygon fill="black" stroke="black" points="286.45,-179.84 296.8,-177.61 287.31,-172.9 286.45,-179.84"/>
+<text text-anchor="middle" x="219.5" y="-189.64" font-family="Times New Roman,serif" font-size="14.00">(2,3)</text>
+<text text-anchor="middle" x="219.5" y="-173.14" font-family="Times New Roman,serif" font-size="14.00">W</text>
+</g>
+<!-- add -->
+<g id="node7" class="node">
+<title>add</title>
+<ellipse fill="none" stroke="black" cx="504.5" cy="-76.5" rx="18" ry="18"/>
+<text text-anchor="middle" x="504.5" y="-71.45" font-family="Times New Roman,serif" font-size="14.00">+</text>
+</g>
+<!-- B&#45;&gt;add -->
+<g id="edge11" class="edge">
+<title>B-&gt;add</title>
+<path fill="none" stroke="black" d="M105.38,-44.58C180.31,-50.58 396.99,-67.96 475.05,-74.22"/>
+<polygon fill="black" stroke="black" points="474.59,-77.69 484.83,-75 475.15,-70.71 474.59,-77.69"/>
+<text text-anchor="middle" x="321" y="-84.23" font-family="Times New Roman,serif" font-size="14.00">(3,)</text>
+<text text-anchor="middle" x="321" y="-67.73" font-family="Times New Roman,serif" font-size="14.00">B</text>
+</g>
+<!-- dot&#45;&gt;X -->
+<g id="edge6" class="edge">
+<title>dot-&gt;X</title>
+<path fill="none" stroke="black" stroke-width="2" d="M299.52,-188.85C283.24,-195.37 259.83,-204.46 239,-211.5 197.29,-225.6 148.67,-239.58 116.17,-248.58"/>
+<polygon fill="black" stroke="black" stroke-width="2" points="117.02,-244.72 108.31,-250.75 118.88,-251.47 117.02,-244.72"/>
+<text text-anchor="middle" x="219.5" y="-242.44" font-family="Times New Roman,serif" font-size="14.00">(N,2)</text>
+<text text-anchor="middle" x="219.5" y="-225.94" font-family="Times New Roman,serif" font-size="14.00">∂L/∂X</text>
+</g>
+<!-- dot&#45;&gt;W -->
+<g id="edge8" class="edge">
+<title>dot-&gt;W</title>
+<path fill="none" stroke="black" stroke-width="2" d="M303.94,-164.91C288.65,-151.26 264.3,-132.39 239,-124.5 197.85,-111.66 148.65,-123.6 115.88,-135.19"/>
+<polygon fill="black" stroke="black" stroke-width="2" points="116.42,-131.26 108.27,-138.02 118.86,-137.82 116.42,-131.26"/>
+<text text-anchor="middle" x="219.5" y="-144.2" font-family="Times New Roman,serif" font-size="14.00">(2,3)</text>
+<text text-anchor="middle" x="219.5" y="-127.7" font-family="Times New Roman,serif" font-size="14.00">∂L/∂W</text>
+</g>
+<!-- dot&#45;&gt;add -->
+<g id="edge9" class="edge">
+<title>dot-&gt;add</title>
+<path fill="none" stroke="black" d="M343.6,-176.77C369.04,-171.65 411.86,-160.68 443.5,-140.5 460.3,-129.78 475.59,-113.31 486.54,-99.76"/>
+<polygon fill="black" stroke="black" points="489.08,-102.19 492.46,-92.15 483.56,-97.89 489.08,-102.19"/>
+<text text-anchor="middle" x="423.25" y="-178.72" font-family="Times New Roman,serif" font-size="14.00">(N,3)</text>
+<text text-anchor="middle" x="423.25" y="-162.22" font-family="Times New Roman,serif" font-size="14.00">X・W</text>
+</g>
+<!-- add&#45;&gt;B -->
+<g id="edge12" class="edge">
+<title>add-&gt;B</title>
+<path fill="none" stroke="black" stroke-width="2" d="M487.5,-69.95C461.37,-59.63 407.64,-40.06 360,-33 273.52,-20.18 170.47,-30 116.56,-37.02"/>
+<polygon fill="black" stroke="black" stroke-width="2" points="117.64,-33.34 108.2,-38.15 118.58,-40.28 117.64,-33.34"/>
+<text text-anchor="middle" x="321" y="-36.2" font-family="Times New Roman,serif" font-size="14.00">∂L/∂Y=∂L/∂B</text>
+</g>
+<!-- add&#45;&gt;dot -->
+<g id="edge10" class="edge">
+<title>add-&gt;dot</title>
+<path fill="none" stroke="black" stroke-width="2" d="M486.1,-77.32C465.19,-78.95 429.6,-83.85 403,-98.5 378.67,-111.9 356.91,-134.88 342.09,-153.11"/>
+<polygon fill="black" stroke="black" stroke-width="2" points="340.29,-149.73 336.86,-159.75 345.8,-154.05 340.29,-149.73"/>
+<text text-anchor="middle" x="423.25" y="-118.2" font-family="Times New Roman,serif" font-size="14.00">(N, 3)</text>
+<text text-anchor="middle" x="423.25" y="-101.7" font-family="Times New Roman,serif" font-size="14.00">∂L/∂Y</text>
+</g>
+<!-- Y -->
+<g id="node8" class="node">
+<title>Y</title>
+<text text-anchor="middle" x="661.75" y="-71.45" font-family="Times New Roman,serif" font-size="14.00"> </text>
+</g>
+<!-- add&#45;&gt;Y -->
+<g id="edge13" class="edge">
+<title>add-&gt;Y</title>
+<path fill="none" stroke="black" d="M522.71,-76.5C549.31,-76.5 600.68,-76.5 632.7,-76.5"/>
+<polygon fill="black" stroke="black" points="632.42,-80 642.42,-76.5 632.42,-73 632.42,-80"/>
+<text text-anchor="middle" x="583.12" y="-96.2" font-family="Times New Roman,serif" font-size="14.00">(N, 3)</text>
+<text text-anchor="middle" x="583.12" y="-79.7" font-family="Times New Roman,serif" font-size="14.00">Y</text>
+</g>
+<!-- Y&#45;&gt;add -->
+<g id="edge14" class="edge">
+<title>Y-&gt;add</title>
+<path fill="none" stroke="black" stroke-width="2" d="M643.93,-60.47C632.68,-50.89 617,-39.62 600.75,-34.5 585.81,-29.79 580.44,-29.79 565.5,-34.5 551.24,-38.99 537.43,-48.22 526.65,-56.88"/>
+<polygon fill="black" stroke="black" stroke-width="2" points="525.69,-53.11 520.34,-62.25 530.22,-58.44 525.69,-53.11"/>
+<text text-anchor="middle" x="583.12" y="-54.2" font-family="Times New Roman,serif" font-size="14.00">(N, 3)</text>
+<text text-anchor="middle" x="583.12" y="-37.7" font-family="Times New Roman,serif" font-size="14.00">∂L/∂Y</text>
+</g>
+</g>
+</svg>

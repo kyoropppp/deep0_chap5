@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="713pt" height="389pt" viewBox="7.20 7.20 705.97 382.06">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(11.2 378.06)">
+<polygon fill="white" stroke="none" points="-4,4 -4,-370.86 694.77,-370.86 694.77,4 -4,4"/>
+<text text-anchor="middle" x="345.39" y="-7.2" font-family="Times New Roman,serif" font-size="14.00">図5-16 リンゴ2個の買い物</text>
+<!-- apple -->
+<g id="node1" class="node">
+<title>apple</title>
+<text text-anchor="middle" x="59.75" y="-342.69" font-family="Times New Roman,serif" font-size="14.00">りんご</text>
+</g>
+<!-- apple_num -->
+<g id="node2" class="node">
+<title>apple_num</title>
+<text text-anchor="middle" x="59.75" y="-190.69" font-family="Times New Roman,serif" font-size="14.00">リンゴの個数</text>
+</g>
+<!-- apple&#45;&gt;apple_num -->
+<!-- mul_apple -->
+<g id="node4" class="node">
+<title>mul_apple</title>
+<ellipse fill="none" stroke="black" cx="273.76" cy="-243.86" rx="76.01" ry="76.01"/>
+<text text-anchor="middle" x="273.76" y="-247.06" font-family="Times New Roman,serif" font-size="14.00">mul_apple_layer</text>
+<text text-anchor="middle" x="273.76" y="-230.56" font-family="Times New Roman,serif" font-size="14.00"> ×</text>
+</g>
+<!-- apple&#45;&gt;mul_apple -->
+<g id="edge3" class="edge">
+<title>apple-&gt;mul_apple</title>
+<path fill="none" stroke="black" d="M93.28,-352.36C115.45,-353.43 144.97,-352.2 168.75,-341.86 186.06,-334.33 202.26,-322.63 216.49,-309.89"/>
+<polygon fill="black" stroke="black" points="218.61,-312.71 223.53,-303.33 213.83,-307.59 218.61,-312.71"/>
+<text text-anchor="middle" x="158.62" y="-351.39" font-family="Times New Roman,serif" font-size="14.00">100</text>
+</g>
+<!-- tax -->
+<g id="node3" class="node">
+<title>tax</title>
+<text text-anchor="middle" x="59.75" y="-38.69" font-family="Times New Roman,serif" font-size="14.00">消費税</text>
+</g>
+<!-- apple_num&#45;&gt;tax -->
+<!-- apple_num&#45;&gt;mul_apple -->
+<g id="edge5" class="edge">
+<title>apple_num-&gt;mul_apple</title>
+<path fill="none" stroke="black" d="M119.24,-209.83C140.52,-214.54 165.02,-219.98 188.11,-225.09"/>
+<polygon fill="black" stroke="black" points="187.31,-228.5 197.83,-227.25 188.82,-221.67 187.31,-228.5"/>
+<text text-anchor="middle" x="158.62" y="-223.56" font-family="Times New Roman,serif" font-size="14.00">2</text>
+</g>
+<!-- mul_tax -->
+<g id="node5" class="node">
+<title>mul_tax</title>
+<ellipse fill="none" stroke="black" cx="495.03" cy="-116.86" rx="67" ry="67"/>
+<text text-anchor="middle" x="495.03" y="-120.06" font-family="Times New Roman,serif" font-size="14.00">mul_tax_layer</text>
+<text text-anchor="middle" x="495.03" y="-103.56" font-family="Times New Roman,serif" font-size="14.00"> ×</text>
+</g>
+<!-- tax&#45;&gt;mul_tax -->
+<g id="edge9" class="edge">
+<title>tax-&gt;mul_tax</title>
+<path fill="none" stroke="black" d="M93.32,-50.27C161.66,-61.63 321.62,-88.21 417.49,-104.14"/>
+<polygon fill="black" stroke="black" points="416.63,-107.55 427.07,-105.73 417.78,-100.64 416.63,-107.55"/>
+<text text-anchor="middle" x="273.76" y="-95.86" font-family="Times New Roman,serif" font-size="14.00">1.1</text>
+</g>
+<!-- mul_apple&#45;&gt;apple -->
+<g id="edge4" class="edge">
+<title>mul_apple-&gt;apple</title>
+<path fill="none" stroke="black" stroke-width="2" d="M205.39,-277.23C172.08,-293.73 132.87,-313.14 103.68,-327.6"/>
+<polygon fill="black" stroke="black" stroke-width="2" points="103.53,-323.77 96.13,-331.34 106.64,-330.04 103.53,-323.77"/>
+<text text-anchor="middle" x="158.62" y="-305.85" font-family="Times New Roman,serif" font-size="14.00">2.2</text>
+</g>
+<!-- mul_apple&#45;&gt;apple_num -->
+<g id="edge6" class="edge">
+<title>mul_apple-&gt;apple_num</title>
+<path fill="none" stroke="black" stroke-width="2" d="M209.34,-203.05C196.38,-196.57 182.49,-190.85 168.75,-187.36 156.55,-184.26 143.34,-183.43 130.5,-183.89"/>
+<polygon fill="black" stroke="black" stroke-width="2" points="132.11,-180.28 122.36,-184.41 132.56,-187.27 132.11,-180.28"/>
+<text text-anchor="middle" x="158.62" y="-190.56" font-family="Times New Roman,serif" font-size="14.00">110</text>
+</g>
+<!-- mul_apple&#45;&gt;mul_tax -->
+<g id="edge7" class="edge">
+<title>mul_apple-&gt;mul_tax</title>
+<path fill="none" stroke="black" d="M343.06,-211.89C361.5,-202.69 381.26,-192.31 399.03,-181.86 409.45,-175.74 420.25,-168.88 430.66,-161.97"/>
+<polygon fill="black" stroke="black" points="432.49,-164.96 438.85,-156.48 428.59,-159.15 432.49,-164.96"/>
+<text text-anchor="middle" x="388.9" y="-196.24" font-family="Times New Roman,serif" font-size="14.00">200</text>
+</g>
+<!-- mul_tax&#45;&gt;tax -->
+<g id="edge10" class="edge">
+<title>mul_tax-&gt;tax</title>
+<path fill="none" stroke="black" stroke-width="2" d="M439.94,-78.53C413.97,-62.43 381.62,-45.56 349.78,-37.36 265.19,-15.59 162.05,-26.88 104.67,-36.35"/>
+<polygon fill="black" stroke="black" stroke-width="2" points="105.73,-32.61 96.46,-37.75 106.91,-39.51 105.73,-32.61"/>
+<text text-anchor="middle" x="273.76" y="-40.56" font-family="Times New Roman,serif" font-size="14.00">200</text>
+</g>
+<!-- mul_tax&#45;&gt;mul_apple -->
+<g id="edge8" class="edge">
+<title>mul_tax-&gt;mul_apple</title>
+<path fill="none" stroke="black" stroke-width="2" d="M430.05,-134.82C412.86,-140.84 394.64,-148.36 378.78,-157.36 365,-165.17 351.26,-174.87 338.5,-184.92"/>
+<polygon fill="black" stroke="black" stroke-width="2" points="337.77,-181.01 332.19,-190.01 342.17,-186.46 337.77,-181.01"/>
+<text text-anchor="middle" x="388.9" y="-160.56" font-family="Times New Roman,serif" font-size="14.00">1.1</text>
+</g>
+<!-- price -->
+<g id="node6" class="node">
+<title>price</title>
+<text text-anchor="middle" x="665.52" y="-110.69" font-family="Times New Roman,serif" font-size="14.00">代金</text>
+</g>
+<!-- mul_tax&#45;&gt;price -->
+<g id="edge11" class="edge">
+<title>mul_tax-&gt;price</title>
+<path fill="none" stroke="black" d="M562.14,-116.86C585.04,-116.86 609.83,-116.86 629.27,-116.86"/>
+<polygon fill="black" stroke="black" points="629.11,-120.36 639.11,-116.86 629.11,-113.36 629.11,-120.36"/>
+<text text-anchor="middle" x="601.15" y="-120.06" font-family="Times New Roman,serif" font-size="14.00">220</text>
+</g>
+<!-- price&#45;&gt;mul_tax -->
+<g id="edge12" class="edge">
+<title>price-&gt;mul_tax</title>
+<path fill="none" stroke="black" stroke-width="2" d="M640.51,-99.58C631.74,-94.25 621.47,-89.07 611.27,-86.36 597.01,-82.56 581.75,-83.25 567.15,-86.22"/>
+<polygon fill="black" stroke="black" stroke-width="2" points="567.98,-82.41 559.09,-88.18 569.63,-89.22 567.98,-82.41"/>
+<text text-anchor="middle" x="601.15" y="-89.56" font-family="Times New Roman,serif" font-size="14.00">1</text>
+</g>
+</g>
+</svg>

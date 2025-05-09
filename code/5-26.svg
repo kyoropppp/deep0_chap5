@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="450pt" height="320pt" viewBox="7.20 7.20 443.08 312.45">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(11.2 308.45)">
+<polygon fill="white" stroke="none" points="-4,4 -4,-301.25 431.88,-301.25 431.88,4 -4,4"/>
+<text text-anchor="middle" x="213.94" y="-7.2" font-family="Times New Roman,serif" font-size="14.00">図5-26 「dot」ノードの逆伝播</text>
+<!-- dummy1 -->
+<g id="node1" class="node">
+<title>dummy1</title>
+<text text-anchor="middle" x="77.38" y="-279.95" font-family="Times New Roman,serif" font-size="14.00">(2,)       (3,)        (3.2)</text>
+<text text-anchor="middle" x="77.38" y="-263.45" font-family="Times New Roman,serif" font-size="14.00">∂L/∂X =∂L/∂Y・W^T </text>
+<text text-anchor="middle" x="77.38" y="-246.95" font-family="Times New Roman,serif" font-size="14.00"> (1,2)       (1,3)        (3.2)</text>
+</g>
+<!-- X -->
+<g id="node2" class="node">
+<title>X</title>
+<text text-anchor="middle" x="77.38" y="-145.45" font-family="Times New Roman,serif" font-size="14.00"> </text>
+</g>
+<!-- dummy1&#45;&gt;X -->
+<!-- W -->
+<g id="node3" class="node">
+<title>W</title>
+<text text-anchor="middle" x="77.38" y="-37.45" font-family="Times New Roman,serif" font-size="14.00"> </text>
+</g>
+<!-- X&#45;&gt;W -->
+<!-- dot -->
+<g id="node4" class="node">
+<title>dot</title>
+<ellipse fill="none" stroke="black" cx="270.69" cy="-116.5" rx="22.69" ry="22.69"/>
+<text text-anchor="middle" x="270.69" y="-111.45" font-family="Times New Roman,serif" font-size="14.00">dot</text>
+</g>
+<!-- X&#45;&gt;dot -->
+<g id="edge3" class="edge">
+<title>X-&gt;dot</title>
+<path fill="none" stroke="black" d="M104.18,-154.91C132.9,-158.82 180.34,-162.26 219,-150.5 227.74,-147.84 236.34,-143.12 243.91,-138.02"/>
+<polygon fill="black" stroke="black" points="245.95,-140.86 251.96,-132.14 241.82,-135.21 245.95,-140.86"/>
+<text text-anchor="middle" x="201.38" y="-176.81" font-family="Times New Roman,serif" font-size="14.00">(2,)</text>
+<text text-anchor="middle" x="201.38" y="-160.31" font-family="Times New Roman,serif" font-size="14.00">X</text>
+</g>
+<!-- W&#45;&gt;dot -->
+<g id="edge5" class="edge">
+<title>W-&gt;dot</title>
+<path fill="none" stroke="black" d="M104.25,-41.76C133.66,-41.97 182.33,-45.57 219,-64.5 230.55,-70.46 241.01,-80.05 249.39,-89.38"/>
+<polygon fill="black" stroke="black" points="246.66,-91.57 255.79,-96.96 252.02,-87.06 246.66,-91.57"/>
+<text text-anchor="middle" x="201.38" y="-84.2" font-family="Times New Roman,serif" font-size="14.00">(2,3)</text>
+<text text-anchor="middle" x="201.38" y="-67.7" font-family="Times New Roman,serif" font-size="14.00">W</text>
+</g>
+<!-- dot&#45;&gt;X -->
+<g id="edge4" class="edge">
+<title>dot-&gt;X</title>
+<path fill="none" stroke="black" d="M248.07,-112.32C239.11,-110.79 228.59,-109.25 219,-108.5 203.38,-107.28 199.14,-105.55 183.75,-108.5 159.65,-113.13 134.05,-123.2 114.11,-132.32"/>
+<polygon fill="black" stroke="black" points="112.88,-129.03 105.32,-136.46 115.86,-135.37 112.88,-129.03"/>
+<text text-anchor="middle" x="201.38" y="-128.2" font-family="Times New Roman,serif" font-size="14.00">(2,)</text>
+<text text-anchor="middle" x="201.38" y="-111.7" font-family="Times New Roman,serif" font-size="14.00">∂L/∂Y</text>
+</g>
+<!-- out -->
+<g id="node5" class="node">
+<title>out</title>
+<text text-anchor="middle" x="409.88" y="-111.45" font-family="Times New Roman,serif" font-size="14.00"> </text>
+</g>
+<!-- dot&#45;&gt;out -->
+<g id="edge6" class="edge">
+<title>dot-&gt;out</title>
+<path fill="none" stroke="black" d="M293.73,-116.5C317.4,-116.5 355.08,-116.5 380.84,-116.5"/>
+<polygon fill="black" stroke="black" points="380.57,-120 390.57,-116.5 380.57,-113 380.57,-120"/>
+<text text-anchor="middle" x="342.63" y="-136.2" font-family="Times New Roman,serif" font-size="14.00">(3,)</text>
+<text text-anchor="middle" x="342.63" y="-119.7" font-family="Times New Roman,serif" font-size="14.00">X・W</text>
+</g>
+<!-- out&#45;&gt;dot -->
+<g id="edge7" class="edge">
+<title>out-&gt;dot</title>
+<path fill="none" stroke="black" stroke-width="2" d="M395.17,-98.82C386.93,-89.68 375.58,-79.43 362.88,-74.5 346.1,-67.99 339.31,-68.4 322.38,-74.5 312.23,-78.16 302.66,-84.84 294.64,-91.81"/>
+<polygon fill="black" stroke="black" stroke-width="2" points="293.38,-88.18 288.49,-97.58 298.18,-93.29 293.38,-88.18"/>
+<text text-anchor="middle" x="342.63" y="-94.2" font-family="Times New Roman,serif" font-size="14.00">(3,)</text>
+<text text-anchor="middle" x="342.63" y="-77.7" font-family="Times New Roman,serif" font-size="14.00">∂L/∂Y</text>
+</g>
+</g>
+</svg>
