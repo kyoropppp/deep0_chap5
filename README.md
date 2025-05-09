@@ -1,0 +1,2 @@
+code -> メインのipynbとsvgデータ
+common -> importするファイル
